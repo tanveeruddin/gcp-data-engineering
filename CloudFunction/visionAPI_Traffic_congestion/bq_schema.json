@@ -1,0 +1,24 @@
+[
+    {
+        "mode": "REQUIRED",
+        "name": "insertTimestamp",
+        "type": "TIMESTAMP"
+    },
+    {
+        "mode": "REPEATED",
+        "name": "labels",
+        "type": "RECORD",
+        "fields": [
+            {
+                "mode": "NULLABLE",
+                "name": "name",
+                "type": "STRING"
+            },
+            {
+                "mode": "NULLABLE",
+                "name": "score",
+                "type": "FLOAT64"
+            }
+        ]
+    }
+]
