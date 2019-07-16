@@ -1,0 +1,2 @@
+gcloud pubsub topics publish YOUR_TOPIC_NAME --message YOUR_NAME
+*/5 6-18 * * *
